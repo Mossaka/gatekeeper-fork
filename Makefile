@@ -28,7 +28,7 @@ KIND_VERSION ?= 0.29.0
 KIND_CLUSTER_FILE ?= ""
 # note: k8s version pinned since KIND image availability lags k8s releases
 KUBERNETES_VERSION ?= 1.33.0
-KUSTOMIZE_VERSION ?= 3.8.9
+KUSTOMIZE_VERSION ?= 5.4.2
 BATS_VERSION ?= 1.12.0
 ORAS_VERSION ?= 1.2.3
 BATS_TESTS_FILE ?= test/bats/test.bats
